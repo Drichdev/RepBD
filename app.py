@@ -2,17 +2,17 @@ import mysql.connector
 
 # Master Database Configuration
 master_config = {
-    'host': 'ip_mas',
-    'user': 'name-use',
-    'password': '',
+    'host': 'ip_master',
+    'user': 'name-user',
+    'password': 'pass',
     'database': 'test',
 }
 
 # Slave Database Configuration
 slave_config = {
     'host': 'localhost',
-    'user': 'name',
-    'password': 'name',
+    'user': 'name_user',
+    'password': 'pass',
     'database': 'test',
 }
 
